@@ -1,0 +1,230 @@
+itemId,itemName,category,avgPrice,minPrice,maxPrice,totalRowsSeen,nameVariantCount,categoryVariantCount,reviewFlag
+13,Lemon Bright Dish Wash 250ml B2 G1,Household-Kitchen,121.34,121.34,121.34,115,1,1,0
+27,Pran Toast-250g,Bakery-Bread,63.66,63.66,63.66,244,1,1,0
+109,Wheel 2in1 Clean & Fresh Powder-1Kg,Personal-Care-Cosmetics,587.26,587.26,587.26,65,1,1,0
+125,Wheel Laundry Soap 125g,Personal-Care-Bath,122.6,122.6,122.6,43,1,1,0
+129,Vim Bar Lemon-125gm,Household-Kitchen,73.72,73.72,73.72,144,1,1,0
+133,Rin Advanced-500gm,Household-Laundry,114.83,114.83,114.83,375,1,1,0
+292,Super White Powder-1000g,Personal-Care-Cosmetics,187.42,187.42,187.42,62,1,1,0
+296,Chaka Advanced Ball Soap-125gm,Personal-Care-Bath,74.71,74.71,74.71,29,1,1,0
+318,Musur Pulse Kangaroo -1Kg (sp),Pantry-Pulses,271.84,271.84,271.84,127,1,1,0
+332,ACI Pure Salt-1Kg,Spices-Cooking,239.78,238.37,250.29,278,1,1,0
+445,Savory Haleem Mix-200gm,Desserts-Traditional,96.21,96.21,96.21,150,1,1,0
+453,Saad Testy Bit Salt-100gm,Spices-Cooking,86.88,86.23,90.54,180,1,1,0
+487,Prince Dubli Pulse-1kg,Pantry-Pulses,169.09,169.09,169.09,166,1,1,0
+488,Bacha Boot Pulse 1Kg,Pantry-Pulses,319.45,319.45,319.45,141,1,1,0
+489,Chola Pulse-1kg,Pantry-Pulses,167.32,167.32,167.32,168,1,1,0
+545,Golden Raisin (Kismis)-200gm,Other,46.67,46.67,46.67,176,1,1,0
+551,Cumin Powder-100gm,Personal-Care-Cosmetics,205.49,205.49,205.49,38,1,1,0
+604,Cassia Leaf-100gm (Tespata),Spices-Cooking,101.74,101.18,106.24,108,1,1,0
+704,Radhuni Spices Cumin-200gm,Spices-Cooking,159.09,157.41,165.28,211,1,1,0
+708,Radhuni Chatpati Masala 50Gm,Spices-Cooking,73.09,72.27,75.88,190,1,1,0
+762,Maggi Saad -E -Magic S Mix-48g,Spices-Meatspecial,50.0,50.0,50.0,298,1,1,0
+782,Panch Foron-100g,Spices-Cooking,55.67,55.45,58.22,219,1,1,0
+864,Pran Haleem Mix(200g),Desserts-Traditional,100.62,100.62,100.62,164,1,1,0
+878,Radhuni Spices (Corinder)-100gm,Spices-Cooking,77.42,76.62,80.45,196,1,1,0
+886,Radhuni Chilli Powder -200gm,Personal-Care-Cosmetics,300.95,300.95,300.95,76,1,1,0
+890,Radhuni Garam Masala-40gm,Spices-Cooking,35.72,35.42,37.19,217,1,1,0
+891,R.Spices(Turmaric)-100g,Spices-Cooking,74.53,73.8,77.49,229,1,1,0
+952,Chashi Aroma.Chinigura Rice-2kg,Pantry-Rice,566.28,559.81,604.59,1115,1,1,0
+976,Lata Rice-KG,Pantry-Rice,103.07,101.99,110.15,859,1,1,0
+1189,Prince Mango Pickle(400gm),Pickle,128.6,128.6,128.6,198,1,1,0
+1192,Prince Olive Pickle(400gm),Pickle,60.17,60.17,60.17,152,1,1,0
+1201,Fruits Skittles Cho -45g,Chocolates-Sweets,40.27,40.27,40.27,220,1,1,0
+1217,Chupa Chups lolipop,Chocolates-Sweets,117.18,117.18,117.18,179,1,1,0
+1374,Nestle Kitkat Chocolate- 41.5g,Chocolates-Sweets,76.52,76.52,76.52,208,1,1,0
+1704,Cho Cup Strawberry Cup -40g,Chocolates-Sweets,52.19,52.19,52.19,146,1,1,0
+1709,Ginnou Wrapper Chocolate Box -44gm,Chocolates-Sweets,32.81,32.81,32.81,160,1,1,0
+2030,Pran Aromatic Rice-2kg,Pantry-Rice,582.46,575.36,621.39,1014,1,1,0
+2038,Teer Soya Oil 2Lt(Bottle),Pantry-Oils,746.75,746.75,746.75,409,1,1,0
+2043,Rupchanda Soyabean-5Ltr,Pantry-Oils,1765.98,1765.98,1765.98,428,1,1,0
+2143,Sensodyne Toothbrush Soft,Personal-Care-Oral,138.14,138.14,138.14,58,1,1,0
+2149,Sensodyne Deep Clean Toothbrush,Personal-Care-Oral,193.0,193.0,193.0,62,1,1,0
+2220,Ambition Tooth brush,Personal-Care-Oral,127.78,127.78,127.78,89,1,1,0
+2255,Pepsodent Gremichek+ Toothpaste-100gm,Personal-Care-Oral,84.09,84.09,84.09,48,1,1,0
+2306,Harpic Total Powder-400gm,Household-Cleaning,85.9,85.9,85.9,313,1,1,0
+2364,Rok Tiles & Bathroom- 1000ml,Household-Cleaning,126.74,126.74,126.74,245,1,1,0
+2801,Vita Juice -250ml,Beverage-Juice,151.68,150.11,157.62,296,1,1,0
+2915,P.Drinko Float Lichi Drink-250ml,Beverage-Juice,146.02,145.38,152.65,227,1,1,0
+3179,Starship Mango Juice 250ml pack,Beverage-Juice,111.12,109.69,115.17,314,1,1,0
+3182,Starship Chocolate Milk-200ml,Dairy-Milk,36.57,36.57,36.57,211,1,1,0
+3185,Marks Milk Shake AS-125,Dairy-Milk,125.21,125.21,125.21,227,1,1,0
+3190,Pran Mango Junior-125ml,Beverage-Juice,27.06,26.88,28.22,197,1,1,0
+3191,Frooto Mango Juice-500ml,Beverage-Juice,70.66,70.0,73.5,329,1,1,0
+3554,Parachute Skin Pure Aloe Vera Gel- 50ml,Personal-Care-Cosmetics,132.46,132.46,132.46,75,1,1,0
+3612,Italiano Sweet Chilli Sauce-340g,Spices-Cooking,98.96,98.29,103.2,198,1,1,0
+3739,Hot Pran Tomato Sauce-500gm,Spices-Cooking,147.93,146.92,154.27,174,1,1,0
+3787,Rose Water-180ml,Personal-Care-Cosmetics,268.22,268.22,268.22,86,1,1,0
+3809,Arla Dano Daily Pushti-500gm,Dairy-Milk,62.22,62.22,62.22,190,1,1,0
+3831,Milk Vita Liquid Milk-1Ltr,Dairy-Milk,215.19,215.19,215.19,297,1,1,0
+3858,Pran Sweetened Yogurt-100gm,Dairy-Other,145.58,144.6,148.94,89,1,1,0
+3952,Pran UHT Milk-200ml,Dairy-Milk,87.15,87.15,87.15,244,1,1,0
+4122,Clear Complete Active Care Shampoo-330ml,Personal-Care-Hair,351.61,351.61,351.61,83,1,1,0
+4259,Sunsilk G.Tea & W.Lilly F Shampoo-375ml,Personal-Care-Hair,265.39,265.39,265.39,90,1,1,0
+4265,Treseme C. Smooth Shampoo -340ml,Personal-Care-Hair,297.59,297.59,297.59,81,1,1,0
+4355,H&S Shampoo+Con. Smooth&Silky 2in1-650ml,Personal-Care-Hair,296.19,296.19,296.19,95,1,1,0
+4511,Dettol Skincare Soap-125gm,Personal-Care-Bath,86.75,86.75,86.75,36,1,1,0
+4520,Meril Splash milk & beli Soap-100gm,Personal-Care-Bath,37.16,37.16,37.16,53,1,1,0
+4531,Lifeboy Lemon Fresh-150gm,Personal-Care-Bath,108.99,108.99,108.99,28,1,1,0
+4533,Lifeboy Total 10-150gm,Personal-Care-Bath,67.89,67.89,67.89,14,1,1,0
+4534,Lux Jasmine & Vitamin E Soap-150g,Personal-Care-Bath,111.91,111.91,111.91,23,1,1,0
+4550,Lifebuoy Health Soap Lemon Fresh-100g,Personal-Care-Bath,102.52,102.52,102.52,35,1,1,0
+4709,Dabur Meswak Paste-100gm,Personal-Care-Oral,84.76,84.76,84.76,66,1,1,0
+4767,Sensodyne Repair&Protect Toothpaste-100g,Personal-Care-Oral,60.47,60.47,60.47,75,1,1,0
+4840,Sun Chips Mix Masala-35gm,Spices-Cooking,91.54,90.78,95.32,210,1,1,0
+4842,Sun Chips Wasabi-35g,Snacks-General,49.47,49.47,49.47,84,1,1,0
+4845,Sun Chips Tomato Tango 38g,Snacks-General,49.93,49.93,49.93,105,1,1,0
+4846,Sun Chips Garlic & Chili 38g,Snacks-General,77.95,77.95,77.95,128,1,1,0
+4857,Kurkure Chilli Chatka-80g,Snacks-General,20.62,20.62,20.62,86,1,1,0
+4861,Kurkure Style Spicy Chicken-80gm,Meat-Processed,77.55,77.55,77.55,137,1,1,0
+4889,Closeup Green-100gm,Personal-Care-Oral,76.41,76.41,76.41,83,1,1,0
+4958,Teer Sugar-1Kg,Pantry-Sweeteners,125.31,125.31,125.31,260,1,1,0
+4965,Poppers Corn-Coco Chips-25gm,Snacks-General,38.03,38.03,38.03,100,1,1,0
+6812,Horlicks Classic Malt-250gm Jar,Beverage-Hot,192.74,192.74,192.74,190,1,1,0
+6814,Horlicks Classic Malt-1Kg Jar,Beverage-Hot,329.9,329.9,329.9,234,1,1,0
+6815,Horlicks - 500gm Jar,Beverage-Hot,149.5,149.5,149.5,247,1,1,0
+6838,Aarong Probiotic Yogurt-500gm,Dairy-Other,284.9,281.77,290.22,108,1,1,0
+6848,Garlic China Big-(kg),Veg-Cooking,49.68,49.68,49.68,165,1,1,0
+6857,Potato Deshi New-1kg,Veg-Cooking,150.92,150.92,150.92,174,1,1,0
+7017,Good Life Mozzarella Cheese-200gm,Dairy-Other,301.47,298.67,307.63,115,1,1,0
+7055,Lactima Cbeddar Slice Cheese-200gm,Dairy-Other,271.03,268.62,276.68,127,1,1,0
+7075,Herman Peanut Butter-340gm,Dairy-Other,155.62,154.46,159.09,155,1,1,0
+7182,Aarong Cheese - 100gm,Dairy-Other,75.62,74.84,77.09,148,1,1,0
+7196,Austogram Mozzarella Cheese-250gm,Dairy-Other,97.83,96.94,99.85,164,1,1,0
+7202,EM Pasta Vite-400gm,Instant-Food,74.94,74.94,74.94,102,1,1,0
+7510,Bisk Club Potata Biscuit- 100g,Snacks-General,46.75,46.75,46.75,245,1,1,0
+7514,Belleame Cremo Biscuit- 90g,Snacks-General,15.0,15.0,15.0,198,1,1,0
+7516,Belleame Digestive Biscuit- 135g,Snacks-General,24.31,24.31,24.31,172,1,1,0
+10415,Chaad Dish Washing Liq Lemon -500ml,Household-Kitchen,182.63,182.63,182.63,171,1,1,0
+12587,Calender Pineapple,Fruits-Fresh,43.62,43.29,45.45,39,1,1,0
+12625,Ramisa-Fried Chira Oil Pkt-200gm,Pantry-Oils,464.29,464.29,464.29,325,1,1,0
+12627,Ramisa-Fried Chira Masala Pkt-200gm,Spices-Cooking,215.42,212.95,223.6,194,1,1,0
+12629,Ramisa-Jhal Nimki Pkt-200gm,Snacks-General,83.42,83.42,83.42,86,1,1,0
+12637,Ramisa-Nakshi Pitha Box-4 Pcs,Desserts-Traditional,109.63,109.63,109.63,129,1,1,0
+12655,Ramisa Nut(Oil)-200gm,Pantry-Oils,424.47,424.47,424.47,287,1,1,0
+12664,Ramisa Dal Vaja-200g,Pantry-Pulses,212.93,212.93,212.93,132,1,1,0
+12674,Ramisa Sweet Munakka-200gm,Dry-Fruits,149.74,149.74,149.74,168,1,1,0
+12778,Muslim Jhinuk-200g,Snacks-General,45.9,45.9,45.9,106,1,1,0
+12822,Barley For Eating-400gm,Pantry-Grains,133.45,133.45,133.45,180,1,1,0
+12823,Jafran,Spices-Cooking,219.68,218.59,229.52,160,1,1,0
+12826,Chia Seed (Dana) New-100g,Pantry-Grains,36.41,36.41,36.41,156,1,1,0
+12834,Prince Betel Spice 100gm,Spices-Cooking,26.27,25.99,27.29,189,1,1,0
+12963,White Kazu Badam-50g,Dry-Fruits,44.11,44.11,44.11,178,1,1,0
+13348,Pandan Kaya Bread- 225g,Bakery-Bread,55.58,55.58,55.58,239,1,1,0
+13352,Queens Egg Bread- 125g,Protein-Egg,116.41,116.41,116.41,533,1,1,0
+13604,Eon Chicken Spring Roll- 300gm,Meat-Processed,329.21,329.21,329.21,89,1,1,0
+13620,AG Vegetable Spring Roll-400g,Snacks-General,77.59,77.59,77.59,115,1,1,0
+13647,Chicken Spring Roll - 250gm,Meat-Processed,206.5,206.5,206.5,116,1,1,0
+13654,Quality Premiun Paratha 10Pcs-650g,Bakery-Bread,81.87,81.87,81.87,243,1,1,0
+13786,C.N Plain Paratha 20pcs-1300gm,Bakery-Bread,97.64,97.64,97.64,222,1,1,0
+13793,C.N Chicken Nuggets-250gm,Meat-Fresh,659.84,644.53,730.9,465,1,1,0
+13802,Chicken (Deshi),Meat-Fresh,698.68,682.72,774.2,345,1,1,0
+13846,Beef Samusa,Snacks-General,53.57,53.57,53.57,107,1,1,0
+13863,Chicken Mini Samusa 250gm (Prem),Snacks-General,43.53,43.53,43.53,100,1,1,0
+13901,Katol Fish (Small)-(MNK),Fish-Fresh,642.82,636.23,655.32,194,1,1,0
+13917,Rui Fish (XL)-(HB),Fish-Fresh,605.27,599.77,617.76,255,1,1,0
+13921,Rui Fish-M-(MNK),Fish-Fresh,506.19,500.77,515.79,244,1,1,0
+13922,Rui Fish (S1)-(MNK),Fish-Fresh,552.17,546.01,562.39,287,1,1,0
+13930,Poa Fish Small-(MNK),Fish-Fresh,315.41,312.25,321.62,264,1,1,0
+13958,Shrimp Fish Bagda,Fish-Fresh,627.63,620.33,638.94,339,1,1,0
+13985,Cow Lever-K,Meat-Fresh,412.14,404.72,458.95,312,1,1,0
+13986,Cow Stomach-K,Meat-Fresh,390.49,382.91,434.22,325,1,1,0
+13988,Beef Bone Full,Meat-Fresh,308.41,300.93,341.25,365,1,1,0
+13989,Beef Without Bone Special,Meat-Fresh,483.46,471.64,534.84,386,1,1,0
+14034,Omega 3 Enriched Egg-12pcs,Protein-Egg,192.1,192.1,192.1,599,1,1,0
+14045,Pabda Fish (Big),Fish-Fresh,495.87,491.1,505.83,216,1,1,0
+14046,Gulsha Fish(Small)-(HB),Fish-Fresh,445.88,441.81,455.06,303,1,1,0
+14815,Tomato L.C(kg),Veg-Cooking,101.46,101.46,101.46,181,1,1,0
+14821,Green Pumpkin-pc,Veg-Cooking,117.47,117.47,117.47,152,1,1,0
+14843,Cucumber Deshi (kg),Veg-Cooking,128.06,128.06,128.06,139,1,1,0
+14844,Banana Green Small-kg,Fruits-Fresh,38.43,38.09,39.99,39,1,1,0
+14958,Green Chilli(kg),Veg-Cooking,134.9,134.9,134.9,150,1,1,0
+14964,Green Papaya(kg),Veg-Cooking,114.51,114.51,114.51,149,1,1,0
+14968,Eye Of Arum(Tall) (Kachurmukhi)-kg,Other,135.89,135.89,135.89,148,1,1,0
+14969,Carrot (Deshi) kg,Veg-Cooking,63.13,63.13,63.13,115,1,1,0
+14975,Capsicum Yellow(kg),Veg-Cooking,84.23,84.23,84.23,122,1,1,0
+14978,Chicken (B-Skin Less),Meat-Fresh,523.63,511.58,580.13,342,1,1,0
+14983,Cauliflower(B)-Pc,Veg-Cooking,115.15,115.15,115.15,128,1,1,0
+14984,Lemon Elachi-Pc,Fruits-Fresh,55.29,55.17,57.93,46,1,1,0
+14995,Bottle Guard Big(Lau)-Pc,Household-Utility,186.04,186.04,186.04,164,1,1,0
+14997,Sweet Pumpkin(kg),Veg-Cooking,56.31,56.31,56.31,116,1,1,0
+14998,Capsicum Green,Veg-Cooking,109.98,109.98,109.98,174,1,1,0
+15104,Bomby Chilli-5Pcs,Veg-Cooking,40.07,40.07,40.07,143,1,1,0
+15131,Atta Fruits,Fruits-Fresh,46.89,46.66,48.99,40,1,1,0
+15180,Akher Sugar -1kg,Pantry-Sweeteners,69.76,69.76,69.76,227,1,1,0
+15262,Cow Brain-K,Meat-Fresh,278.93,273.98,310.69,430,1,1,0
+15263,Malta (Yellow)-kg,Fruits-Fresh,42.03,41.83,43.92,31,1,1,0
+15265,Naspati(kg),Fruits-Fresh,56.19,55.99,58.79,41,1,1,0
+15266,Apple (Fuji),Fruits-Fresh,53.23,53.02,55.67,38,1,1,0
+15275,Austrogram Cheese,Dairy-Other,311.32,307.87,317.11,134,1,1,0
+15279,Thai Papaya Ripe Red Lady,Veg-Cooking,25.85,25.85,25.85,149,1,1,0
+15296,Apple(Gala),Fruits-Fresh,126.86,126.51,132.84,55,1,1,0
+16230,Polar Ice-Cream Kheer-1Ltr,Personal-Care-Cosmetics,524.55,524.55,524.55,114,1,1,0
+16232,Polar Ice Cream Chocolate-1Ltr(Tub),Personal-Care-Cosmetics,500.75,500.75,500.75,112,1,1,0
+16240,Polar Cake - 1Ltr,Bakery-Bread,223.3,223.3,223.3,195,1,1,0
+17809,Foster Clarks Corn Flour-200gm,Pantry-Flour,79.37,79.37,79.37,129,1,1,0
+22234,Sprite-1.25 Lt(Pet),Beverage-Carbonated,145.66,144.14,155.67,111,1,1,0
+22235,Coca Cola-2.25Lt(Pet),Beverage-Carbonated,294.85,291.04,314.32,188,1,1,0
+22237,Coca Cola-600ml(Pet),Beverage-Carbonated,213.33,210.97,227.85,218,1,1,0
+22241,Kinley Club Soda -600ml,Beverage-Carbonated,208.19,206.13,212.31,192,1,1,0
+22251,Mountan Dew-250ml Can,Beverage-Carbonated,87.31,86.62,93.55,161,1,1,0
+22258,Pepsi 600ml,Beverage-Carbonated,95.36,94.38,101.93,185,1,1,0
+22259,Mirinda Orange- 600ml,Beverage-Carbonated,99.64,98.46,106.34,209,1,1,0
+22260,Pepsi (Diet) 600ml,Beverage-Carbonated,147.62,145.74,157.4,205,1,1,0
+23117,One Man Punjabi -0521,Clothing-Traditional,394.63,394.3,425.84,192,1,1,0
+24707,Bashu. Toilet Tissue (White),Household-Tissue,63.93,63.93,63.93,139,1,1,0
+24715,Bashun Paper Towel 1Ply- 250Pcs,Household-Tissue,163.07,163.07,163.07,115,1,1,0
+24717,B Toilet Tissue Extra Saving Pack 4Rolls,Household-Tissue,140.74,140.74,140.74,145,1,1,0
+25437,Aarong Butter Salted-100gm,Dairy-Other,116.45,115.39,118.85,130,1,1,0
+25474,Lassa Special Semai-500g(Pkt),Pantry-Dryfood,157.38,155.51,176.35,475,1,1,0
+25486,Aquafina Drinking Water- 500ml,Beverage-Water,20.03,20.03,20.03,278,1,1,0
+25519,Dettol Skincare HW-170ml(Refil),Personal-Care-Bath,56.95,56.95,56.95,15,1,1,0
+25524,Dettol Handwash Aloe Vera - 200ml,Personal-Care-Bath,97.09,97.09,97.09,14,1,1,0
+25567,Lifebuoy Liquid Care Hand Wash-170ml,Personal-Care-Bath,76.43,76.43,76.43,29,1,1,0
+25569,Lifeboy Liquid Total Hand Wash-1L,Personal-Care-Bath,79.45,79.45,79.45,35,1,1,0
+25571,Lifebuoy Liquid Total Hand Wash-170ml,Personal-Care-Bath,59.39,59.39,59.39,22,1,1,0
+25811,Miton Ezafa Sari- 0001,Clothing-Traditional,979.22,977.21,1055.39,194,1,1,0
+26430,G.Men Turbo B Face Wash-100ml,Personal-Care-Bath,208.81,208.81,208.81,38,1,1,0
+26536,Knorr Soup-24gm,Instant-Food,135.44,135.44,135.44,59,1,1,0
+26607,Doodles Stick Noodles-300gm,Instant-Food,93.71,93.71,93.71,90,1,1,0
+26615,Maggi 2min Masala-248g (Jumbo),Instant-Food,32.73,32.73,32.73,66,1,1,0
+26627,Sajeeb Noodles-180g (TS),Instant-Food,42.48,42.48,42.48,75,1,1,0
+26628,Sajeeb Bar-B-Q Noodles-180gm,Instant-Food,29.26,29.26,29.26,79,1,1,0
+26634,Prince Egg Noodles 300gm,Instant-Food,90.94,90.94,90.94,125,1,1,0
+26701,Nescafe Classic Jar-25gm,Beverage-Hot,47.33,47.33,47.33,179,1,1,0
+26766,Mr.Noodles Easy Masala-8pcs,Instant-Food,85.19,85.19,85.19,90,1,1,0
+26888,Nescafe Classic Jar-50g,Beverage-Hot,47.66,47.66,47.66,216,1,1,0
+27353,Nivea Body Spray Fresh Natural - 150ml,Personal-Care-Cosmetics,115.16,115.16,115.16,75,1,1,0
+28308,Parachute Coconut Hair Oil-200ml Jar,Personal-Care-Hair,335.75,335.75,335.75,81,1,1,0
+28573,Lattafa Air Freshener-300ml (Pure Oudi),Household-Aircare,325.59,325.59,325.59,314,1,1,0
+29140,Ponds Bright Beauty Cream-23ml,Personal-Care-Cosmetics,337.9,337.9,337.9,49,1,1,0
+30626,Bashundhara Maida-2kg,Pantry-Flour,282.55,282.55,282.55,103,1,1,0
+30627,Bashundhara Atta-2kg,Pantry-Flour,235.71,235.71,235.71,103,1,1,0
+30640,Pure it Micro Fiber Mesh,Household-Utility,166.03,166.03,166.03,176,1,1,0
+30743,Senora S.Nap Eco(Belt)-15s Pad,Personal-Care-Sanitary,168.91,168.91,168.91,338,1,1,0
+30745,Senora Confidence-16Pads,Personal-Care-Sanitary,182.61,182.61,182.61,381,1,1,0
+30788,Teer Atta 2kg,Pantry-Flour,282.43,282.43,282.43,131,1,1,0
+30789,Teer Suji 500gm,Pantry-Flour,175.91,175.91,175.91,113,1,1,0
+30982,Motor Vaja-30g,Snacks-General,49.11,49.11,49.11,90,1,1,0
+31328,Prince Lacha Samai-200g(Pkt),Pantry-Dryfood,128.01,126.93,143.94,259,1,1,0
+31849,RF Fotua-064,Clothing-Traditional,1324.08,1320.65,1426.3,154,1,1,0
+31928,Chowa Gamsa-521,Clothing-Accessories,737.35,737.35,737.35,440,1,1,0
+31963,China Baby Frock -7808 (4/23),Clothing-Casual,829.17,829.17,829.17,186,1,1,0
+31973,Ch Baby Frock -2122 (4/23),Clothing-Casual,487.59,487.59,487.59,148,1,1,0
+32012,Ch Baby Set N-5215 (4/23),Clothing-Casual,440.27,440.27,440.27,133,1,1,0
+32123,Ch Baby T-Shirt-21030 (4/23),Clothing-Casual,1155.35,1155.35,1155.35,145,1,1,0
+32190,Aradhya Punjabi-2610,Clothing-Traditional,2272.74,2270.47,2452.11,160,1,1,0
+32223,Anita Ind ONN Vest- NF 221(4/23),Clothing-Casual,656.81,656.81,656.81,179,1,1,0
+32269,Gopal Ind Like Me Bra S-38 (4/23),Clothing-Accessories,717.4,717.4,717.4,427,1,1,0
+32441,Ela vista pomace olive oil 250 ml,Pantry-Oils,589.85,589.85,589.85,375,1,1,0
+32467,Lifebuoy Hand Wash-200ml,Personal-Care-Bath,70.06,70.06,70.06,43,1,1,0
+32468,Lifebuoy Care Hand Wash-200ml,Personal-Care-Bath,215.61,215.61,215.61,44,1,1,0
+32480,Sunsilk Black Shine Shampoo-330ml,Personal-Care-Hair,363.37,363.37,363.37,59,1,1,0
+32486,Sunsilk Hair Fall Solution Shampoo-170ml,Personal-Care-Hair,323.51,323.51,323.51,97,1,1,0
+32500,Fair & Lovely Multivitamin-50gm,Personal-Care-Cosmetics,64.88,64.88,64.88,72,1,1,0
+42617,Jhok Mok Dishwash Bar 300gmB2 get 100gm Free,Household-Kitchen,119.61,119.61,119.61,154,1,1,0
+42620,Safe Hand wash (green) 300ml,Personal-Care-Bath,127.95,127.95,127.95,31,1,1,0
+42915,Rok Handwash Fruity-200ml(Buy2 Get1 Free),Personal-Care-Bath,204.88,204.88,204.88,28,1,1,0
+42961,Dolphin Nata de Coco Drink (All)-270gm,Beverage-Juice,102.84,102.18,107.29,201,1,1,0
+43017,Doughtnut Sugar Bread-200gm,Bakery-Bread,27.61,27.61,27.61,224,1,1,0
+43102,Meril Milk & Rose Soap 100gm,Personal-Care-Bath,95.59,95.59,95.59,56,1,1,0
