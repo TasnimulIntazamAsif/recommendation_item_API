@@ -31,7 +31,7 @@ def metrics():
     if not summary_file.exists():
         return jsonify({
             "success": False,
-            "message": "final_result_summary.csv পাওয়া যায়নি"
+            "message": "final_result_summary.csv not exists"
         }), 404
 
     df = pd.read_csv(summary_file)
