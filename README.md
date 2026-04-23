@@ -64,11 +64,7 @@ Retail recommendation system-এর জন্য এটি একটি Flask AP
 
 ## API Endpoints
 
-- `GET /api/health`  
-  API status check
 
-- `GET /api/metrics`  
-  `final_result_summary.csv` থেকে evaluation/summary metrics return করে
 
 - `POST /api/recommend`  
   Top recommendation result return করে
