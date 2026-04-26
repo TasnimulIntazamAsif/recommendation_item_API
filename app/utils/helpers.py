@@ -1,45 +1,105 @@
-import re
 import json
 import pickle
+import re
 from pathlib import Path
-from collections import Counter
 
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-def normalize_text(x):
-    if pd.isna(x):
-        return x
-    x = str(x).strip()
-    x = re.sub(r"\s+", " ", x)
-    return x
+def normalize_text(value):
+    if pd.isna(value):
+        return ""
+
+    value = str(value).strip()
+    value = re.sub(r"\s+", " ", value)
+
+    return value
 
 
-def normalize_category(cat):
-    if pd.isna(cat):
-        return cat
-    cat = normalize_text(cat)
-    parts = [p.strip() for p in cat.split("_")] if "_" in str(cat) else [p.strip() for p in cat.split("-")]
-    parts = [p.capitalize() if p else p for p in parts]
-    return "-".join(parts)
+def load_json(path):
+    path = Path(path)
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_pickle(path):
+    path = Path(path)
+
+    with open(path, "rb") as f:
+        return pickle.load(f)
 
 
 def infer_season_from_month(month):
-    if month in [12, 1, 2]:
+    month = int(month)
+
+    if month in [11, 12, 1, 2]:
         return "Winter"
-    elif month in [3, 4]:
-        return "Spring"
-    elif month in [5, 6, 7]:
+
+    if month in [3, 4, 5, 6]:
         return "Summer"
-    elif month in [8, 9, 10]:
-        return "Autumn"
-    return "LateAutumn"
+
+    return "Rainy"
+
+
+def season_to_label(season):
+    mapping = {
+        "Winter": 1,
+        "Summer": 2,
+        "Rainy": 3
+    }
+
+    return mapping.get(str(season).strip(), 0)
+
+
+def timeslot_to_label(timeslot):
+    mapping = {
+        "Morning": 1,
+        "Noon": 2,
+        "Afternoon": 3,
+        "Evening": 4,
+        "Night": 5
+    }
+
+    return mapping.get(str(timeslot).strip(), 0)
+
+def infer_timeslot_from_hour(hour):
+    hour = int(hour)
+
+    if 6 <= hour <= 11:
+        return "Morning"
+
+    if 12 <= hour <= 13:
+        return "Noon"
+
+    if 14 <= hour <= 16:
+        return "Afternoon"
+
+    if 17 <= hour <= 20:
+        return "Evening"
+
+    return "Night"
+
+
+def month_part_label(dt):
+    day = int(dt.day)
+
+    if day <= 10:
+        return 1
+
+    if day <= 20:
+        return 2
+
+    return 3
 
 
 def week_of_month(dt):
-    return ((dt.day - 1) // 7) + 1
+    first_day = dt.replace(day=1)
+    adjusted_day = dt.day + first_day.weekday()
+
+    return int(np.ceil(adjusted_day / 7.0))
 
 
 def cosine_sim(vec1, vec2):
@@ -56,17 +116,13 @@ def cosine_sim(vec1, vec2):
 
 
 def mean_pool_vectors(vectors):
-    valid = [np.array(v, dtype=float) for v in vectors if v is not None]
-    if len(valid) == 0:
+    valid_vectors = []
+
+    for vector in vectors:
+        if vector is not None:
+            valid_vectors.append(np.array(vector, dtype=float))
+
+    if len(valid_vectors) == 0:
         return None
-    return np.mean(valid, axis=0)
 
-
-def load_pickle(path):
-    with open(path, "rb") as f:
-        return pickle.load(f)
-
-
-def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return np.mean(valid_vectors, axis=0)
