@@ -5,14 +5,11 @@ from app.services.recommender_service import RecommenderService
 
 recommendation_bp = Blueprint("recommendation_bp", __name__)
 
-_service = None
-
-
 def get_service():
-    global _service
-    if _service is None:
-        _service = RecommenderService(current_app.config)
-    return _service
+    if not hasattr(current_app, "recommender_service"):
+        current_app.recommender_service = RecommenderService(current_app.config)
+
+    return current_app.recommender_service
 
 
 @recommendation_bp.route("/health", methods=["GET"])
@@ -26,15 +23,17 @@ def health():
 @recommendation_bp.route("/metrics", methods=["GET"])
 def metrics():
     import pandas as pd
+
     summary_file = current_app.config["FINAL_RESULT_FILE"]
 
     if not summary_file.exists():
         return jsonify({
             "success": False,
-            "message": "final_result_summary.csv not exists"
+            "message": "final_result_summary.csv not found"
         }), 404
 
     df = pd.read_csv(summary_file)
+
     return jsonify({
         "success": True,
         "metrics": df.to_dict(orient="records")
@@ -52,21 +51,37 @@ def metrics():
             "schema": {
                 "type": "object",
                 "properties": {
-                    "customerid": {"type": "integer", "example": 23412},
-                    "date": {"type": "string", "example": "2026-04-20"},
+                    "customerid": {
+                        "type": "integer",
+                        "example": 23412
+                    },
+                    "date and time": {
+                        "type": "string",
+                        "example": "2026-04-14 05:00:00"
+                    },
+                    "timeSlot": {
+                        "type": "string",
+                        "example": "Afternoon"
+                    },
                     "items": {
                         "type": "array",
                         "items": {
                             "type": "object",
                             "properties": {
-                                "itemid": {"type": "integer", "example": 13989},
-                                "quantity": {"type": "number", "example": 1}
+                                "itemid": {
+                                    "type": "integer",
+                                    "example": 13989
+                                },
+                                "quantity": {
+                                    "type": "number",
+                                    "example": 1
+                                }
                             },
                             "required": ["itemid", "quantity"]
                         }
                     }
                 },
-                "required": ["customerid", "date", "items"]
+                "required": ["customerid", "date and time", "items"]
             }
         }
     ],
@@ -86,13 +101,26 @@ def recommend():
         if not payload:
             return jsonify({
                 "success": False,
-                "message": "JSON body পাওয়া যায়নি"
+                "message": "JSON body not found"
             }), 400
 
-        if "customerid" not in payload or "date" not in payload or "items" not in payload:
+        required_fields = ["customerid", "date and time", "items"]
+
+        missing_fields = [
+            field for field in required_fields
+            if field not in payload
+        ]
+
+        if missing_fields:
             return jsonify({
                 "success": False,
-                "message": "customerid, date, items লাগবে"
+                "message": f"Missing required fields: {missing_fields}"
+            }), 400
+
+        if not isinstance(payload["items"], list) or len(payload["items"]) == 0:
+            return jsonify({
+                "success": False,
+                "message": "items must be a non empty list"
             }), 400
 
         service = get_service()
