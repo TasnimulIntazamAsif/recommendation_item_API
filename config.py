@@ -1,6 +1,6 @@
 from pathlib import Path
 
-BASE_DIR = Path(r"C:\D drive\item_recommendation_api")
+BASE_DIR = Path(r"D:\recommendation_api")
 MODEL_ASSETS_DIR = BASE_DIR / "model_assets"
 
 
